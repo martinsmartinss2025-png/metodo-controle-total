@@ -1,0 +1,1282 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia Rotina Matinal Homens Fortes - Evolua em 90 Dias</title>
+    <meta name="description" content="Guia prático para construir disciplina, eliminar procrastinação e conquistar mais em 90 dias. Transforme sua vida com uma rotina matinal poderosa.">
+    <meta name="keywords" content="rotina matinal, produtividade, disciplina, hábitos, desenvolvimento pessoal, homens">
+    
+    <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '903771119078848');
+    fbq('track', 'PageView');
+    </script>
+    <noscript>
+    <img height="1" width="1" style="display:none" 
+    src="https://www.facebook.com/tr?id=903771119078848&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --cor-laranja: #FF6B00;
+            --cor-laranja-escuro: #E55A00;
+            --cor-preto: #0A0A0A;
+            --cor-cinza-escuro: #1A1A1A;
+            --cor-cinza: #2D2D2D;
+            --cor-branco: #FFFFFF;
+            --cor-cinza-claro: #B0B0B0;
+            --cor-verde: #00C851;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--cor-preto);
+            color: var(--cor-branco);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, var(--cor-preto) 0%, var(--cor-cinza-escuro) 100%);
+            padding: 20px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 2px solid var(--cor-laranja);
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 900;
+            color: var(--cor-laranja);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        
+        .logo span {
+            color: var(--cor-branco);
+        }
+        
+        .btn-header {
+            background: var(--cor-verde);
+            color: var(--cor-branco);
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            font-weight: 700;
+            font-size: 0.9rem;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .btn-header:hover {
+            background: #00A844;
+            transform: scale(1.05);
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--cor-preto) 0%, var(--cor-cinza-escuro) 50%, #1a0a00 100%);
+            padding: 140px 0 80px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="%23FF6B00" stroke-width="0.5" opacity="0.1"/></svg>');
+            background-size: 100px 100px;
+            opacity: 0.3;
+        }
+        
+        .hero-badge {
+            display: inline-block;
+            background: var(--cor-laranja);
+            color: var(--cor-branco);
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 25px;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        
+        .hero h1 {
+            font-size: 3rem;
+            font-weight: 900;
+            line-height: 1.2;
+            margin-bottom: 25px;
+            text-transform: uppercase;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .hero h1 .highlight {
+            color: var(--cor-laranja);
+            display: block;
+        }
+        
+        .hero-subtitle {
+            font-size: 1.3rem;
+            color: var(--cor-cinza-claro);
+            max-width: 700px;
+            margin: 0 auto 40px;
+            line-height: 1.8;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .hero-stats {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 900;
+            color: var(--cor-laranja);
+        }
+        
+        .stat-label {
+            font-size: 0.9rem;
+            color: var(--cor-cinza-claro);
+            text-transform: uppercase;
+        }
+        
+        .btn-principal {
+            background: linear-gradient(135deg, var(--cor-verde) 0%, #00A844 100%);
+            color: var(--cor-branco);
+            padding: 20px 50px;
+            border: none;
+            border-radius: 10px;
+            font-size: 1.3rem;
+            font-weight: 900;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            box-shadow: 0 10px 30px rgba(0, 200, 81, 0.3);
+            position: relative;
+            z-index: 1;
+        }
+        
+        .btn-principal:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(0, 200, 81, 0.4);
+        }
+        
+        .btn-principal::after {
+            content: '→';
+            margin-left: 10px;
+        }
+        
+        .garantia-texto {
+            margin-top: 20px;
+            font-size: 0.9rem;
+            color: var(--cor-cinza-claro);
+            position: relative;
+            z-index: 1;
+        }
+        
+        .garantia-texto strong {
+            color: var(--cor-laranja);
+        }
+        
+        /* Video Section */
+        .video-section {
+            padding: 60px 0;
+            background: var(--cor-cinza-escuro);
+            text-align: center;
+        }
+        
+        .video-container {
+            max-width: 800px;
+            margin: 0 auto;
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: 15px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+        }
+        
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        /* Problema Section */
+        .problema {
+            padding: 80px 0;
+            background: var(--cor-preto);
+        }
+        
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 900;
+            text-align: center;
+            margin-bottom: 50px;
+            text-transform: uppercase;
+        }
+        
+        .section-title span {
+            color: var(--cor-laranja);
+        }
+        
+        .problema-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            align-items: center;
+        }
+        
+        .problema-imagem {
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+        }
+        
+        .problema-imagem img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .problema-texto h3 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            color: var(--cor-laranja);
+        }
+        
+        .problema-lista {
+            list-style: none;
+        }
+        
+        .problema-lista li {
+            padding: 15px 0;
+            padding-left: 40px;
+            position: relative;
+            border-bottom: 1px solid var(--cor-cinza);
+            font-size: 1.1rem;
+        }
+        
+        .problema-lista li::before {
+            content: '✗';
+            position: absolute;
+            left: 0;
+            color: #ff4444;
+            font-weight: 900;
+            font-size: 1.3rem;
+        }
+        
+        /* Solucao Section */
+        .solucao {
+            padding: 80px 0;
+            background: linear-gradient(135deg, var(--cor-cinza-escuro) 0%, var(--cor-preto) 100%);
+        }
+        
+        .beneficios-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 60px;
+        }
+        
+        .beneficio-card {
+            background: var(--cor-cinza);
+            padding: 30px;
+            border-radius: 15px;
+            border-left: 4px solid var(--cor-laranja);
+            transition: all 0.3s ease;
+        }
+        
+        .beneficio-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(255, 107, 0, 0.2);
+        }
+        
+        .beneficio-icon {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+        
+        .beneficio-card h4 {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            color: var(--cor-branco);
+        }
+        
+        .beneficio-card p {
+            color: var(--cor-cinza-claro);
+            font-size: 0.95rem;
+        }
+        
+        /* Bonus Section */
+        .bonus {
+            background: var(--cor-laranja);
+            padding: 40px;
+            border-radius: 15px;
+            margin: 40px 0;
+            text-align: center;
+        }
+        
+        .bonus h3 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            color: var(--cor-branco);
+        }
+        
+        .bonus-lista {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        
+        .bonus-item {
+            background: rgba(255,255,255,0.2);
+            padding: 20px 30px;
+            border-radius: 10px;
+            color: var(--cor-branco);
+            font-weight: 700;
+        }
+        
+        .bonus-item span {
+            display: block;
+            font-size: 2rem;
+            margin-bottom: 5px;
+        }
+        
+        /* Depoimentos */
+        .depoimentos {
+            padding: 80px 0;
+            background: var(--cor-preto);
+        }
+        
+        .depoimentos-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+        
+        .depoimento-card {
+            background: var(--cor-cinza-escuro);
+            padding: 30px;
+            border-radius: 15px;
+            text-align: center;
+            border: 1px solid var(--cor-cinza);
+        }
+        
+        .depoimento-avatar {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            overflow: hidden;
+            border: 3px solid var(--cor-laranja);
+        }
+        
+        .depoimento-avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .estrelas {
+            color: #FFD700;
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+        }
+        
+        .depoimento-texto {
+            font-style: italic;
+            color: var(--cor-cinza-claro);
+            margin-bottom: 15px;
+            line-height: 1.8;
+        }
+        
+        .depoimento-nome {
+            font-weight: 700;
+            color: var(--cor-laranja);
+        }
+        
+        .depoimento-idade {
+            font-size: 0.85rem;
+            color: var(--cor-cinza-claro);
+        }
+        
+        /* Prova Social Selos */
+        .prova-social {
+            padding: 60px 0;
+            background: var(--cor-cinza-escuro);
+            text-align: center;
+        }
+        
+        .selos {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+        
+        .selo {
+            background: var(--cor-cinza);
+            padding: 25px 40px;
+            border-radius: 15px;
+            border: 2px solid var(--cor-laranja);
+        }
+        
+        .selo-numero {
+            font-size: 2.5rem;
+            font-weight: 900;
+            color: var(--cor-laranja);
+        }
+        
+        .selo-texto {
+            font-size: 0.9rem;
+            color: var(--cor-cinza-claro);
+            text-transform: uppercase;
+        }
+        
+        /* Preco Section */
+        .preco {
+            padding: 80px 0;
+            background: linear-gradient(135deg, var(--cor-preto) 0%, #1a0a00 100%);
+            text-align: center;
+        }
+        
+        .preco-card {
+            background: var(--cor-cinza-escuro);
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 50px;
+            border-radius: 20px;
+            border: 3px solid var(--cor-laranja);
+            position: relative;
+        }
+        
+        .preco-tag {
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--cor-laranja);
+            color: var(--cor-branco);
+            padding: 10px 30px;
+            border-radius: 50px;
+            font-weight: 900;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+        }
+        
+        .preco-original {
+            font-size: 1.5rem;
+            color: var(--cor-cinza-claro);
+            text-decoration: line-through;
+            margin-bottom: 10px;
+        }
+        
+        .preco-atual {
+            font-size: 4rem;
+            font-weight: 900;
+            color: var(--cor-verde);
+            margin-bottom: 20px;
+        }
+        
+        .preco-atual small {
+            font-size: 1.5rem;
+        }
+        
+        .contador {
+            background: var(--cor-cinza);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 30px 0;
+        }
+        
+        .contador-texto {
+            font-size: 1rem;
+            color: var(--cor-cinza-claro);
+            margin-bottom: 10px;
+        }
+        
+        .contador-tempo {
+            font-size: 2rem;
+            font-weight: 900;
+            color: var(--cor-laranja);
+            font-family: 'Courier New', monospace;
+        }
+        
+        .garantia-selo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 30px;
+            padding: 20px;
+            background: rgba(0, 200, 81, 0.1);
+            border-radius: 10px;
+        }
+        
+        .garantia-selo-icon {
+            font-size: 3rem;
+        }
+        
+        .garantia-selo-texto {
+            text-align: left;
+        }
+        
+        .garantia-selo-texto strong {
+            display: block;
+            color: var(--cor-verde);
+            font-size: 1.2rem;
+        }
+        
+        .garantia-selo-texto span {
+            color: var(--cor-cinza-claro);
+            font-size: 0.9rem;
+        }
+        
+        /* CTA Section */
+        .cta-section {
+            padding: 60px 0;
+            text-align: center;
+        }
+        
+        .cta-section .btn-principal {
+            font-size: 1.5rem;
+            padding: 25px 60px;
+        }
+        
+        /* FAQ */
+        .faq {
+            padding: 80px 0;
+            background: var(--cor-cinza-escuro);
+        }
+        
+        .faq-lista {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .faq-item {
+            background: var(--cor-cinza);
+            margin-bottom: 15px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        .faq-pergunta {
+            padding: 20px 25px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 700;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+        }
+        
+        .faq-pergunta:hover {
+            background: var(--cor-laranja);
+        }
+        
+        .faq-pergunta::after {
+            content: '+';
+            font-size: 1.5rem;
+            color: var(--cor-laranja);
+        }
+        
+        .faq-pergunta:hover::after {
+            color: var(--cor-branco);
+        }
+        
+        .faq-resposta {
+            padding: 0 25px;
+            max-height: 0;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            color: var(--cor-cinza-claro);
+        }
+        
+        .faq-item.active .faq-resposta {
+            padding: 20px 25px;
+            max-height: 200px;
+        }
+        
+        .faq-item.active .faq-pergunta::after {
+            content: '−';
+        }
+        
+        /* Autor */
+        .autor {
+            padding: 80px 0;
+            background: var(--cor-preto);
+        }
+        
+        .autor-content {
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            gap: 50px;
+            align-items: center;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        
+        .autor-foto {
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(255, 107, 0, 0.3);
+        }
+        
+        .autor-foto img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .autor-texto h3 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            color: var(--cor-laranja);
+        }
+        
+        .autor-texto .subtitulo {
+            color: var(--cor-cinza-claro);
+            margin-bottom: 20px;
+            font-size: 1.1rem;
+        }
+        
+        .autor-texto p {
+            color: var(--cor-cinza-claro);
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+        
+        /* Footer */
+        .footer {
+            background: var(--cor-cinza-escuro);
+            padding: 60px 0 30px;
+            text-align: center;
+            border-top: 2px solid var(--cor-laranja);
+        }
+        
+        .footer-logo {
+            font-size: 2rem;
+            font-weight: 900;
+            color: var(--cor-laranja);
+            margin-bottom: 20px;
+        }
+        
+        .footer-logo span {
+            color: var(--cor-branco);
+        }
+        
+        .footer-social {
+            margin-bottom: 30px;
+        }
+        
+        .footer-social a {
+            display: inline-block;
+            margin: 0 15px;
+            color: var(--cor-cinza-claro);
+            font-size: 1.5rem;
+            transition: all 0.3s ease;
+            text-decoration: none;
+        }
+        
+        .footer-social a:hover {
+            color: var(--cor-laranja);
+            transform: scale(1.2);
+        }
+        
+        .footer-links {
+            margin-bottom: 30px;
+        }
+        
+        .footer-links a {
+            color: var(--cor-cinza-claro);
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 0.9rem;
+            transition: all 0.3s ease;
+        }
+        
+        .footer-links a:hover {
+            color: var(--cor-laranja);
+        }
+        
+        .footer-copy {
+            color: var(--cor-cinza-claro);
+            font-size: 0.85rem;
+        }
+        
+        /* Responsivo */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .hero-subtitle {
+                font-size: 1rem;
+            }
+            
+            .problema-content {
+                grid-template-columns: 1fr;
+            }
+            
+            .problema-imagem {
+                order: -1;
+            }
+            
+            .autor-content {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+            
+            .autor-foto {
+                max-width: 250px;
+                margin: 0 auto;
+            }
+            
+            .preco-atual {
+                font-size: 3rem;
+            }
+            
+            .section-title {
+                font-size: 1.8rem;
+            }
+            
+            .btn-principal {
+                font-size: 1rem;
+                padding: 15px 30px;
+            }
+            
+            .header-content {
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            .hero {
+                padding-top: 160px;
+            }
+        }
+        
+        /* Scroll animation */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.6s ease;
+        }
+        
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    </style>
+<base target="_blank">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">PROJETO <span>90D</span></div>
+                <a href="https://pay.hotmart.com/H104481086N" class="btn-header" onclick="fbq('track', 'Purchase', {value: 47.90, currency: 'BRL'});">QUERO COMEÇAR AGORA</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-badge">⚡ Atenção: Homens que querem mudar de vida</div>
+            <h1>
+                Acorde Como um <span class="highlight">GUERREIRO</span>
+                A Rotina Matinal que Transforma Homens Comuns em <span class="highlight">MÁQUINAS DE SUCESSO</span> em Apenas 90 Dias!
+            </h1>
+            <p class="hero-subtitle">
+                Imagine acordar às 5h, cheio de energia, foco e disciplina – sem mais procrastinação ou dias perdidos. 
+                Esse guia prático te leva do <strong>caos à conquista</strong>.
+            </p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-number">+500</div>
+                    <div class="stat-label">Homens Transformados</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">97%</div>
+                    <div class="stat-label">Taxa de Aprovação</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">90</div>
+                    <div class="stat-label">Dias de Evolução</div>
+                </div>
+            </div>
+            <a href="https://pay.hotmart.com/H104481086N" class="btn-principal" onclick="fbq('track', 'Purchase', {value: 47.90, currency: 'BRL'});">
+                ACESSAR O GUIA AGORA POR R$47,90
+            </a>
+            <p class="garantia-texto">
+                <strong>🔒 Garantia de 7 Dias</strong> ou seu dinheiro de volta • Acesso imediato após pagamento
+            </p>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <div class="container">
+            <h2 class="section-title">Assista e Descubra Como <span>Funciona</span></h2>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ?rel=0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problema Section -->
+    <section class="problema">
+        <div class="container">
+            <h2 class="section-title">A Verdade que Ninguém te Conta: <span>Você Está Sofrendo</span> e Não Precisa</h2>
+            <div class="problema-content">
+                <div class="problema-texto">
+                    <h3>Eu sei exatamente como você se sente. Porque eu já estive aí.</h3>
+                    <p style="color: var(--cor-cinza-claro); margin-bottom: 20px;">Essas são as dores que me consumiam todos os dias:</p>
+                    <ul class="problema-lista">
+                        <li>Acordar cansado, sem energia e já estressado</li>
+                        <li>Procrastinar as tarefas importantes todo santo dia</li>
+                        <li>Sentir que a vida está passando e você está estagnado</li>
+                        <li>Falhar nas metas que você mesmo se propôs</li>
+                        <li>Rotina bagunçada, sem propósito e sem direção</li>
+                        <li>Frustração de ver outros homens conquistando enquanto você para no mesmo lugar</li>
+                    </ul>
+                </div>
+                <div class="problema-imagem">
+                    <img src="homem-frustrado.jpg" alt="Homem frustrado com rotina bagunçada">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solucao Section -->
+    <section class="solucao">
+        <div class="container">
+            <h2 class="section-title">A Solução: <span>Guia de Rotina Matinal</span> para Homens Fortes</h2>
+            <p style="text-align: center; color: var(--cor-cinza-claro); max-width: 700px; margin: -30px auto 50px; font-size: 1.1rem;">
+                Um método passo a passo, testado e comprovado por mais de 500 homens, que vai transformar suas manhãs e, consequentemente, <strong>sua vida inteira</strong>.
+            </p>
+            
+            <div class="beneficios-grid">
+                <div class="beneficio-card fade-in">
+                    <div class="beneficio-icon">💪</div>
+                    <h4>Construa Hábitos Inquebráveis</h4>
+                    <p>Desenvolva uma rotina matinal tão forte que nada a derrube. Disciplina de aço em 90 dias.</p>
+                </div>
+                <div class="beneficio-card fade-in">
+                    <div class="beneficio-icon">⚡</div>
+                    <h4>Aumente Produtividade em 200%</h4>
+                    <p>Faça mais antes das 9h do que a maioria das pessoas faz o dia inteiro. Resultados exponenciais.</p>
+                </div>
+                <div class="beneficio-card fade-in">
+                    <div class="beneficio-icon">🧠</div>
+                    <h4>Melhore Saúde Mental e Física</h4>
+                    <p>Elimine a ansiedade, ganhe energia vital e construa um corpo que reflita sua mente forte.</p>
+                </div>
+                <div class="beneficio-card fade-in">
+                    <div class="beneficio-icon">🎯</div>
+                    <h4>Foco Laser nas Metas</h4>
+                    <p>Pare de se distrair. Aprenda a priorizar o que realmente importa e execute sem desculpas.</p>
+                </div>
+                <div class="beneficio-card fade-in">
+                    <div class="beneficio-icon">🔥</div>
+                    <h4>Elimine a Procrastinação</h4>
+                    <p>Chega de adiar. Aprenda a tomar ação imediata e manter o momentum todo dia.</p>
+                </div>
+                <div class="beneficio-card fade-in">
+                    <div class="beneficio-icon">📈</div>
+                    <h4>Resultados em 21 Dias</h4>
+                    <p>Comece a ver mudanças reais em apenas 3 semanas. Transformação completa em 90 dias.</p>
+                </div>
+                <div class="beneficio-card fade-in">
+                    <div class="beneficio-icon">⏰</div>
+                    <h4>Acorde às 5h com Energia</h4>
+                    <p>Técnicas cientificamente comprovadas para acordar cedo e cheio de disposição.</p>
+                </div>
+                <div class="beneficio-card fade-in">
+                    <div class="beneficio-icon">🏆</div>
+                    <h4>Conquiste Respeito</h4>
+                    <p>Seja visto como um homem de ação, confiável e que entrega resultados.</p>
+                </div>
+            </div>
+            
+            <div class="bonus">
+                <h3>🎁 BÔNUS EXCLUSIVOS (Valor Total: R$147)</h3>
+                <div class="bonus-lista">
+                    <div class="bonus-item">
+                        <span>📋</span>
+                        Checklist Semanal
+                    </div>
+                    <div class="bonus-item">
+                        <span>🎵</span>
+                        Áudio Motivacional
+                    </div>
+                    <div class="bonus-item">
+                        <span>💬</span>
+                        Grupo Exclusivo WhatsApp
+                    </div>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="https://pay.hotmart.com/H104481086N" class="btn-principal" onclick="fbq('track', 'Purchase', {value: 47.90, currency: 'BRL'});">
+                    QUERO TODOS OS BÔNUS POR R$47,90
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="depoimentos">
+        <div class="container">
+            <h2 class="section-title">O que os <span>Homens Dizem</span></h2>
+            <div class="depoimentos-grid">
+                <div class="depoimento-card fade-in">
+                    <div class="depoimento-avatar">
+                        <img src="depoimento-1.jpg" alt="João">
+                    </div>
+                    <div class="estrelas">★★★★★</div>
+                    <p class="depoimento-texto">"Mudou minha vida completamente! Em 30 dias já senti uma diferença enorme na minha energia e produtividade. Hoje acordo às 5h naturalmente, cheio de disposição."</p>
+                    <div class="depoimento-nome">João Silva</div>
+                    <div class="depoimento-idade">32 anos, Empreendedor</div>
+                </div>
+                <div class="depoimento-card fade-in">
+                    <div class="depoimento-avatar">
+                        <img src="depoimento-2.jpg" alt="Marcos">
+                    </div>
+                    <div class="estrelas">★★★★★</div>
+                    <p class="depoimento-texto">"Depois de anos procrastinando, finalmente encontrei um método que funciona. A rotina matinal me deu disciplina que eu nunca tive antes."</p>
+                    <div class="depoimento-nome">Marcos Oliveira</div>
+                    <div class="depoimento-idade">40 anos, Executivo</div>
+                </div>
+                <div class="depoimento-card fade-in">
+                    <div class="depoimento-avatar">
+                        <img src="depoimento-3.jpg" alt="Pedro">
+                    </div>
+                    <div class="estrelas">★★★★★</div>
+                    <p class="depoimento-texto">"O grupo do WhatsApp foi essencial. Ter outros homens na mesma jornada me manteve accountable. Perdi 8kg e tripliquei minha renda em 90 dias!"</p>
+                    <div class="depoimento-nome">Pedro Costa</div>
+                    <div class="depoimento-idade">25 anos, Programador</div>
+                </div>
+                <div class="depoimento-card fade-in">
+                    <div class="depoimento-avatar">
+                        <img src="depoimento-4.jpg" alt="Ricardo">
+                    </div>
+                    <div class="estrelas">★★★★★</div>
+                    <p class="depoimento-texto">"Aos 45 anos, achei que já era tarde para mudar. Esse guia provou que estava errado. Minha saúde, relacionamento e carreira melhoraram drasticamente."</p>
+                    <div class="depoimento-nome">Ricardo Mendes</div>
+                    <div class="depoimento-idade">45 anos, Médico</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prova Social Selos -->
+    <section class="prova-social">
+        <div class="container">
+            <div class="selos">
+                <div class="selo">
+                    <div class="selo-numero">+500</div>
+                    <div class="selo-texto">Downloads Realizados</div>
+                </div>
+                <div class="selo">
+                    <div class="selo-numero">97%</div>
+                    <div class="selo-texto">Taxa de Satisfação</div>
+                </div>
+                <div class="selo">
+                    <div class="selo-numero">7</div>
+                    <div class="selo-texto">Dias de Garantia</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Preco Section -->
+    <section class="preco">
+        <div class="container">
+            <h2 class="section-title">Oferta <span>Limitada</span></h2>
+            <div class="preco-card">
+                <div class="preco-tag">🔥 Promoção Especial</div>
+                <p class="preco-original">De R$ 97,00</p>
+                <div class="preco-atual">
+                    <small>R$</small>47,90
+                </div>
+                <p style="color: var(--cor-cinza-claro);">Pagamento único • Acesso vitalício</p>
+                
+                <div class="contador">
+                    <p class="contador-texto">⏰ Essa oferta acaba em:</p>
+                    <div class="contador-tempo" id="contador">47:59:59</div>
+                </div>
+                
+                <a href="https://pay.hotmart.com/H104481086N" class="btn-principal" onclick="fbq('track', 'Purchase', {value: 47.90, currency: 'BRL'});" style="width: 100%;">
+                    GARANTIR MINHA VAGA AGORA
+                </a>
+                
+                <div class="garantia-selo">
+                    <div class="garantia-selo-icon">🛡️</div>
+                    <div class="garantia-selo-texto">
+                        <strong>Garantia Incondicional de 7 Dias</strong>
+                        <span>Não gostou? Devolvemos 100% do seu dinheiro, sem perguntas.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" style="background: var(--cor-cinza-escuro);">
+        <div class="container">
+            <h2 class="section-title">Não Deixe para <span>Amanhã</span></h2>
+            <p style="color: var(--cor-cinza-claro); max-width: 600px; margin: -20px auto 40px; font-size: 1.1rem;">
+                Cada dia que passa é uma oportunidade perdida. Comece sua transformação hoje e em 90 dias você nem vai reconhecer o homem que você era.
+            </p>
+            <a href="https://pay.hotmart.com/H104481086N" class="btn-principal" onclick="fbq('track', 'Purchase', {value: 47.90, currency: 'BRL'});">
+                SIM! QUERO TRANSFORMAR MINHA VIDA
+            </a>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">Perguntas <span>Frequentes</span></h2>
+            <div class="faq-lista">
+                <div class="faq-item">
+                    <div class="faq-pergunta">Quanto tempo leva para ver resultados?</div>
+                    <div class="faq-resposta">A maioria dos homens começa a sentir mais energia e foco já nos primeiros 7 dias. Resultados visíveis e significativos aparecem entre 21 e 30 dias de prática consistente.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-pergunta">Preciso acordar às 5h da manhã?</div>
+                    <div class="faq-resposta">Não! O guia é adaptável. Ensinamos como criar uma rotina matinal poderosa independentemente do horário que você acorda. O importante é a qualidade, não o horário.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-pergunta">E se eu já tentei outros métodos e falhei?</div>
+                    <div class="faq-resposta">Esse guia foi criado justamente para quem já tentou de tudo. Nossa abordagem é prática, sem frescura, e focada em resultados reais. O diferencial é o sistema de accountability do grupo.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-pergunta">Como funciona o acesso ao grupo do WhatsApp?</div>
+                    <div class="faq-resposta">Após a compra, você recebe o link de acesso ao grupo exclusivo por e-mail. Lá você terá suporte diário, motivação constante e networking com outros homens na mesma jornada.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-pergunta">O material é digital ou físico?</div>
+                    <div class="faq-resposta">O Guia de Rotina Matinal é 100% digital. Você recebe acesso imediato após a confirmação do pagamento e pode acessar de qualquer dispositivo, a qualquer momento.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-pergunta">Como funciona a garantia de 7 dias?</div>
+                    <div class="faq-resposta">Você tem 7 dias para testar o guia. Se por qualquer motivo não ficar satisfeito, basta enviar um e-mail e devolvemos 100% do seu dinheiro, sem perguntas nem burocracia.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-pergunta">O pagamento é seguro?</div>
+                    <div class="faq-resposta">Sim! Utilizamos a plataforma Hotmart, líder mundial em produtos digitais, com criptografia SSL e todas as proteções de segurança. Seus dados estão 100% protegidos.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Autor -->
+    <section class="autor">
+        <div class="container">
+            <h2 class="section-title">Quem Criou o <span>Projeto 90D</span></h2>
+            <div class="autor-content">
+                <div class="autor-foto">
+                    <img src="autor.jpg" alt="Alisson - Criador do Projeto 90D">
+                </div>
+                <div class="autor-texto">
+                    <h3>Alisson</h3>
+                    <p class="subtitulo">Criador do Projeto Evolução 90D</p>
+                    <p>
+                        Há 5 anos, eu estava exatamente onde você está agora: cansado, sem energia, procrastinando e vendo a vida passar. Minhas manhãs eram um caos e meus dias, uma sequência de frustrações.
+                    </p>
+                    <p>
+                        Depois de estudar neurociência, hábitos e produtividade, desenvolvi um sistema que transformou minha vida. Hoje, acordo às 5h com energia de sobra, construí uma empresa de 7 dígitos e ajudo outros homens a fazerem o mesmo.
+                    </p>
+                    <p>
+                        O Projeto 90D nasceu da missão de ajudar homens a se tornarem a melhor versão de si mesmos. Não é sobre perfeição, é sobre <strong>progresso consistente</strong>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section class="cta-section" style="background: linear-gradient(135deg, var(--cor-preto) 0%, #1a0a00 100%);">
+        <div class="container">
+            <h2 class="section-title">A Decisão é <span>Sua</span></h2>
+            <p style="color: var(--cor-cinza-claro); max-width: 600px; margin: -20px auto 40px; font-size: 1.1rem;">
+                Você pode continuar na mesma... ou dar o primeiro passo para uma vida de disciplina, energia e conquistas.
+            </p>
+            <a href="https://pay.hotmart.com/H104481086N" class="btn-principal" onclick="fbq('track', 'Purchase', {value: 47.90, currency: 'BRL'});">
+                COMEÇAR MINHA TRANSFORMAÇÃO →
+            </a>
+            <p class="garantia-texto" style="margin-top: 30px;">
+                <strong>R$47,90</strong> apenas • Garantia de 7 dias • Acesso imediato
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-logo">PROJETO <span>90D</span></div>
+            <div class="footer-social">
+                <a href="https://instagram.com/proje_to90d" target="_blank">📷 Instagram</a>
+                <a href="#" target="_blank">▶️ YouTube</a>
+                <a href="#" target="_blank">💬 Telegram</a>
+            </div>
+            <div class="footer-links">
+                <a href="#">Termos de Uso</a>
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Contato</a>
+                <a href="#">Suporte</a>
+            </div>
+            <p class="footer-copy">
+                © 2025 Projeto Evolução 90D. Todos os direitos reservados.<br>
+                Este site não é afiliado ao Facebook, Instagram ou Google.<br>
+                Resultados podem variar de pessoa para pessoa.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        // Contador regressivo
+        function iniciarContador() {
+            let horas = 47;
+            let minutos = 59;
+            let segundos = 59;
+            
+            const contadorElement = document.getElementById('contador');
+            
+            setInterval(() => {
+                segundos--;
+                if (segundos < 0) {
+                    segundos = 59;
+                    minutos--;
+                }
+                if (minutos < 0) {
+                    minutos = 59;
+                    horas--;
+                }
+                if (horas < 0) {
+                    horas = 47;
+                    minutos = 59;
+                    segundos = 59;
+                }
+                
+                const h = horas.toString().padStart(2, '0');
+                const m = minutos.toString().padStart(2, '0');
+                const s = segundos.toString().padStart(2, '0');
+                
+                contadorElement.textContent = `${h}:${m}:${s}`;
+            }, 1000);
+        }
+        
+        iniciarContador();
+        
+        // FAQ Accordion
+        document.querySelectorAll('.faq-pergunta').forEach(pergunta => {
+            pergunta.addEventListener('click', () => {
+                const item = pergunta.parentElement;
+                item.classList.toggle('active');
+            });
+        });
+        
+        // Scroll Animation
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+        
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+        
+        // Smooth scroll para links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
