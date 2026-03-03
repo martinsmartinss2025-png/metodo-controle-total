@@ -1,14 +1,15 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guia Rotina Matinal Homens Fortes - Evolua em 90 Dias</title>
-    <meta name="description" content="Guia prático para construir disciplina, eliminar procrastinação e conquistar mais em 90 dias. Transforme sua vida com uma rotina matinal poderosa.">
-    <meta name="keywords" content="rotina matinal, produtividade, disciplina, hábitos, desenvolvimento pessoal, homens">
-    
-    <!-- Facebook Pixel Code -->
-    <script>
+<!doctype html>
+<html lang="pt-BR" class="h-full">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Protocolo Evolução | Transforme Sua Vida em 90 Dias</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="/_sdk/element_sdk.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Inter:wght@400;500;600;700;800;900&amp;display=swap" rel="stylesheet"><!-- Meta Pixel Code - Official Updated Version -->
+  <script>
     !function(f,b,e,v,n,t,s)
     {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
     n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -17,159 +18,838 @@
     t.src=v;s=b.getElementsByTagName(e)[0];
     s.parentNode.insertBefore(t,s)}(window, document,'script',
     'https://connect.facebook.net/en_US/fbevents.js');
-    
-    fbq('init', '903771119078848');
+    fbq('init', '1026498869516671');
     fbq('track', 'PageView');
-    </script>
-    <noscript>
-    <img height="1" width="1" style="display:none" 
-         src="https://www.facebook.com/tr?id=903771119078848&ev=PageView&noscript=1"/>
-    </noscript>
-    <!-- End Facebook Pixel Code -->
+  </script>
+  <noscript>
+   &lt;img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1026498869516671&amp;amp;ev=PageView&amp;amp;noscript=1" /&gt;
+  </noscript><!-- End Meta Pixel Code -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            dark: '#0a0a0a',
+            darker: '#050505',
+            gold: '#d4af37',
+            goldLight: '#f4d03f',
+            accent: '#1e40af'
+          },
+          fontFamily: {
+            bebas: ['Bebas Neue', 'sans-serif'],
+            inter: ['Inter', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    html, body { height: 100%; }
+    * { font-family: 'Inter', sans-serif; }
+    .font-bebas { font-family: 'Bebas Neue', sans-serif; }
     
-    <style>
-        /* Seu CSS original permanece igual – não alterei nada aqui para preservar o visual */
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        :root {
-            --cor-laranja: #FF6B00;
-            --cor-laranja-escuro: #E55A00;
-            --cor-preto: #0A0A0A;
-            --cor-cinza-escuro: #1A1A1A;
-            --cor-cinza: #2D2D2D;
-            --cor-branco: #FFFFFF;
-            --cor-cinza-claro: #B0B0B0;
-            --cor-verde: #00C851;
-        }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: var(--cor-preto); color: var(--cor-branco); line-height: 1.6; overflow-x: hidden; }
-        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
-        /* ... resto do seu CSS original continua igual ... */
-    </style>
-<base target="_blank">
-</head>
-<body>
-
-    <!-- Header -->
-    <header class="header">
-        <div class="container">
-            <div class="header-content">
-                <div class="logo">PROJETO <span>90D</span></div>
-                <!-- Botão atualizado -->
-                <a href="https://pay.hotmart.com/H104481086N"
-                   class="btn-header"
-                   onclick="return goCheckout('https://pay.hotmart.com/H104481086N');">
-                    QUERO COMEÇAR AGORA
-                </a>
-            </div>
+    .gradient-gold {
+      background: linear-gradient(135deg, #d4af37 0%, #f4d03f 50%, #d4af37 100%);
+    }
+    
+    .text-gradient {
+      background: linear-gradient(135deg, #d4af37 0%, #f4d03f 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    
+    .glow-gold {
+      box-shadow: 0 0 30px rgba(212, 175, 55, 0.4), 0 0 60px rgba(212, 175, 55, 0.2);
+    }
+    
+    .glow-gold-intense {
+      box-shadow: 0 0 40px rgba(212, 175, 55, 0.6), 0 0 80px rgba(212, 175, 55, 0.3);
+    }
+    
+    .card-dark {
+      background: linear-gradient(145deg, #111111 0%, #0a0a0a 100%);
+      border: 1px solid rgba(212, 175, 55, 0.2);
+    }
+    
+    .btn-cta {
+      background: linear-gradient(135deg, #d4af37 0%, #b8960c 100%);
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .btn-cta::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+      transition: left 0.5s ease;
+    }
+    
+    .btn-cta:hover::before {
+      left: 100%;
+    }
+    
+    .btn-cta:hover {
+      transform: translateY(-3px) scale(1.02);
+      box-shadow: 0 20px 40px rgba(212, 175, 55, 0.4);
+    }
+    
+    .pulse-animation {
+      animation: pulse 2s infinite;
+    }
+    
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+    }
+    
+    .fade-in {
+      animation: fadeIn 0.8s ease-out;
+    }
+    
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    
+    .counter-box {
+      background: rgba(212, 175, 55, 0.1);
+      border: 2px solid rgba(212, 175, 55, 0.3);
+    }
+    
+    .line-through-red {
+      text-decoration: line-through;
+      text-decoration-color: #ef4444;
+    }
+    
+    .check-icon {
+      color: #22c55e;
+    }
+    
+    .module-card:hover {
+      transform: translateY(-5px);
+      border-color: rgba(212, 175, 55, 0.5);
+    }
+    
+    .testimonial-card {
+      background: linear-gradient(145deg, rgba(17,17,17,0.9) 0%, rgba(10,10,10,0.9) 100%);
+    }
+    
+    .urgency-bar {
+      background: linear-gradient(90deg, #dc2626 0%, #b91c1c 100%);
+    }
+    
+    .faq-item {
+      border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+    }
+    
+    .faq-item:last-child {
+      border-bottom: none;
+    }
+  </style>
+  <style>body { box-sizing: border-box; }</style>
+  <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
+ </head>
+ <body class="h-full bg-dark text-white overflow-auto">
+  <div class="w-full min-h-full"><!-- Urgency Bar -->
+   <div class="urgency-bar py-3 px-4 text-center sticky top-0 z-50">
+    <div class="flex items-center justify-center gap-2 flex-wrap"><span class="text-white font-bold text-sm md:text-base">⚡ OFERTA ESPECIAL EXPIRA EM:</span>
+     <div class="flex gap-2"><span id="countdown-hours" class="bg-black/30 px-2 py-1 rounded font-bold">23</span> <span class="font-bold">:</span> <span id="countdown-minutes" class="bg-black/30 px-2 py-1 rounded font-bold">59</span> <span class="font-bold">:</span> <span id="countdown-seconds" class="bg-black/30 px-2 py-1 rounded font-bold">59</span>
+     </div><span class="text-yellow-300 font-bold text-sm">🔥 87 VAGAS RESTANTES</span>
+    </div>
+   </div><!-- Hero Section -->
+   <section class="relative py-12 md:py-20 px-4 overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-b from-gold/5 via-transparent to-transparent"></div>
+    <div class="absolute top-20 left-10 w-72 h-72 bg-gold/10 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-20 right-10 w-96 h-96 bg-gold/5 rounded-full blur-3xl"></div>
+    <div class="max-w-5xl mx-auto text-center relative z-10 fade-in">
+     <div class="inline-block mb-6 px-4 py-2 bg-gold/20 rounded-full border border-gold/40"><span class="text-gold font-semibold text-sm md:text-base">🏆 MÉTODO VALIDADO POR +2.847 HOMENS</span>
+     </div>
+     <h1 id="main-headline" class="font-bebas text-4xl md:text-6xl lg:text-7xl leading-tight mb-6 tracking-wide">CHEGA DE VIVER NO <span class="text-gradient">MODO AUTOMÁTICO</span><br><span class="text-white">DOMINE SUA MENTE, SEU DINHEIRO E SUA VIDA</span></h1>
+     <p id="main-subheadline" class="text-lg md:text-xl lg:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">O sistema definitivo de <span class="text-gold font-bold">90 dias</span> para você sair da procrastinação, eliminar vícios e construir a versão mais forte de si mesmo — <span class="text-gold font-bold">mesmo que você já tenha tentado de tudo antes</span>.</p>
+     <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8"><a href="https://pay.hotmart.com/H104481086N" target="_blank" rel="noopener noreferrer" onclick="trackCheckout()" class="btn-cta px-8 py-5 rounded-lg text-black font-black text-lg md:text-xl pulse-animation w-full sm:w-auto"> 🔥 QUERO EVOLUIR AGORA </a>
+     </div>
+     <div class="flex flex-wrap justify-center gap-6 text-sm text-gray-400"><span class="flex items-center gap-2">
+       <svg class="w-5 h-5 text-green-500" fill="currentColor" viewbox="0 0 20 20">
+        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+       </svg> Acesso Imediato </span> <span class="flex items-center gap-2">
+       <svg class="w-5 h-5 text-green-500" fill="currentColor" viewbox="0 0 20 20">
+        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+       </svg> Garantia de 7 Dias </span> <span class="flex items-center gap-2">
+       <svg class="w-5 h-5 text-green-500" fill="currentColor" viewbox="0 0 20 20">
+        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+       </svg> Suporte Exclusivo </span>
+     </div>
+    </div>
+   </section><!-- Pain Section -->
+   <section class="py-16 px-4 bg-gradient-to-b from-transparent via-red-900/10 to-transparent">
+    <div class="max-w-4xl mx-auto">
+     <h2 class="font-bebas text-3xl md:text-5xl text-center mb-12"><span class="text-red-500">VOCÊ ESTÁ CANSADO</span> DE...</h2>
+     <div class="grid md:grid-cols-2 gap-6">
+      <div class="card-dark p-6 rounded-xl border-l-4 border-red-500/50 hover:border-red-500 transition-all">
+       <div class="flex items-start gap-4"><span class="text-3xl">😤</span>
+        <div>
+         <h3 class="font-bold text-lg mb-2">Procrastinar todos os dias</h3>
+         <p class="text-gray-400">Acordar sem energia, deixar tudo para depois e ver os dias passarem sem nenhum progresso real.</p>
         </div>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <div class="hero-badge">⚡ Atenção: Homens que querem mudar de vida</div>
-            <h1>
-                Acorde Como um <span class="highlight">GUERREIRO</span>
-                A Rotina Matinal que Transforma Homens Comuns em <span class="highlight">MÁQUINAS DE SUCESSO</span> em Apenas 90 Dias!
-            </h1>
-            <!-- ... resto do hero igual ... -->
-            <!-- Botão atualizado -->
-            <a href="https://pay.hotmart.com/H104481086N"
-               class="btn-principal"
-               onclick="return goCheckout('https://pay.hotmart.com/H104481086N');">
-                ACESSAR O GUIA AGORA POR R$47,90
-            </a>
-            <p class="garantia-texto">
-                <strong>🔒 Garantia de 7 Dias</strong> ou seu dinheiro de volta • Acesso imediato após pagamento
-            </p>
+       </div>
+      </div>
+      <div class="card-dark p-6 rounded-xl border-l-4 border-red-500/50 hover:border-red-500 transition-all">
+       <div class="flex items-start gap-4"><span class="text-3xl">📱</span>
+        <div>
+         <h3 class="font-bold text-lg mb-2">Ser escravo dos vícios digitais</h3>
+         <p class="text-gray-400">Perder horas em redes sociais, pornografia e jogos enquanto sua vida real desmorona.</p>
         </div>
-    </section>
-
-    <!-- ... Todas as outras seções permanecem iguais até a parte de preço ... -->
-
-    <!-- Preco Section (exemplo de botão atualizado) -->
-    <section class="preco">
-        <div class="container">
-            <!-- ... conteúdo igual ... -->
-            <!-- Botão atualizado -->
-            <a href="https://pay.hotmart.com/H104481086N"
-               class="btn-principal"
-               style="width: 100%;"
-               onclick="return goCheckout('https://pay.hotmart.com/H104481086N');">
-                GARANTIR MINHA VAGA AGORA
-            </a>
-            <!-- ... resto igual ... -->
+       </div>
+      </div>
+      <div class="card-dark p-6 rounded-xl border-l-4 border-red-500/50 hover:border-red-500 transition-all">
+       <div class="flex items-start gap-4"><span class="text-3xl">💸</span>
+        <div>
+         <h3 class="font-bold text-lg mb-2">Não ter dinheiro no final do mês</h3>
+         <p class="text-gray-400">Trabalhar o mês inteiro e ainda assim não sobrar nada. Viver de salário em salário.</p>
         </div>
-    </section>
-
-    <!-- ... restante do HTML igual (FAQ, Autor, CTA final, Footer) ... -->
-
-    <!-- Scripts no final do body -->
-    <script>
-        // Função para rastrear checkout e redirecionar
-        function goCheckout(url) {
-            // Dispara eventos de intenção de compra
-            fbq('track', 'InitiateCheckout', {
-                content_ids: ['guia-rotina-matinal-90d'],
-                content_type: 'product',
-                content_name: 'Guia de Rotina Matinal para Homens Fortes - Projeto 90D',
-                value: 47.90,
-                currency: 'BRL',
-                num_items: 1
-            });
-
-            fbq('track', 'Purchase', {
-                content_ids: ['guia-rotina-matinal-90d'],
-                content_type: 'product',
-                content_name: 'Guia de Rotina Matinal para Homens Fortes - Projeto 90D',
-                value: 47.90,
-                currency: 'BRL',
-                num_items: 1
-            });
-
-            // Redireciona para o checkout
-            window.location.href = url;
-            return false; // Impede o link padrão (evita duplicação)
-        }
-
-        // Contador regressivo (seu código original)
-        function iniciarContador() {
-            let horas = 47;
-            let minutos = 59;
-            let segundos = 59;
-            
-            const contadorElement = document.getElementById('contador');
-            
-            setInterval(() => {
-                segundos--;
-                if (segundos < 0) { segundos = 59; minutos--; }
-                if (minutos < 0) { minutos = 59; horas--; }
-                if (horas < 0) { horas = 47; minutos = 59; segundos = 59; }
-                
-                const h = horas.toString().padStart(2, '0');
-                const m = minutos.toString().padStart(2, '0');
-                const s = segundos.toString().padStart(2, '0');
-                
-                contadorElement.textContent = `${h}:${m}:${s}`;
-            }, 1000);
-        }
-        iniciarContador();
-
-        // FAQ Accordion (seu código original)
-        document.querySelectorAll('.faq-pergunta').forEach(pergunta => {
-            pergunta.addEventListener('click', () => {
-                const item = pergunta.parentElement;
-                item.classList.toggle('active');
-            });
+       </div>
+      </div>
+      <div class="card-dark p-6 rounded-xl border-l-4 border-red-500/50 hover:border-red-500 transition-all">
+       <div class="flex items-start gap-4"><span class="text-3xl">🧭</span>
+        <div>
+         <h3 class="font-bold text-lg mb-2">Não saber qual é o seu propósito</h3>
+         <p class="text-gray-400">Sentir que está perdido, sem direção clara, apenas existindo em vez de realmente vivendo.</p>
+        </div>
+       </div>
+      </div>
+      <div class="card-dark p-6 rounded-xl border-l-4 border-red-500/50 hover:border-red-500 transition-all">
+       <div class="flex items-start gap-4"><span class="text-3xl">🪞</span>
+        <div>
+         <h3 class="font-bold text-lg mb-2">Não se orgulhar do homem no espelho</h3>
+         <p class="text-gray-400">Olhar para si mesmo e saber que você está muito abaixo do seu verdadeiro potencial.</p>
+        </div>
+       </div>
+      </div>
+      <div class="card-dark p-6 rounded-xl border-l-4 border-red-500/50 hover:border-red-500 transition-all">
+       <div class="flex items-start gap-4"><span class="text-3xl">⏰</span>
+        <div>
+         <h3 class="font-bold text-lg mb-2">Ver o tempo passando sem evoluir</h3>
+         <p class="text-gray-400">Anos se passam e você continua no mesmo lugar. As mesmas desculpas, os mesmos resultados.</p>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="text-center mt-12">
+      <p class="text-xl md:text-2xl text-gray-300 mb-6"><span class="text-gold font-bold">A boa notícia?</span> Isso NÃO é culpa sua.<br><span class="text-white font-semibold">Ninguém te ensinou o sistema certo.</span></p>
+     </div>
+    </div>
+   </section><!-- Solution Section -->
+   <section class="py-16 px-4 bg-gradient-to-b from-transparent via-gold/5 to-transparent">
+    <div class="max-w-5xl mx-auto text-center"><span class="inline-block px-4 py-2 bg-gold/20 rounded-full text-gold font-semibold text-sm mb-6"> A SOLUÇÃO DEFINITIVA </span>
+     <h2 class="font-bebas text-4xl md:text-6xl mb-6">APRESENTAMOS O<br><span class="text-gradient">PROTOCOLO EVOLUÇÃO</span></h2>
+     <p class="text-xl text-gray-300 mb-12 max-w-3xl mx-auto">O método estruturado que vai te transformar em um homem <span class="text-gold font-bold">disciplinado, focado e financeiramente livre</span> em apenas 90 dias.</p>
+     <div class="card-dark p-8 md:p-12 rounded-2xl glow-gold max-w-4xl mx-auto">
+      <div class="grid md:grid-cols-3 gap-8 text-center">
+       <div>
+        <div class="text-5xl font-bebas text-gradient mb-2">
+         90
+        </div>
+        <div class="text-gray-400">
+         Dias de Transformação
+        </div>
+       </div>
+       <div>
+        <div class="text-5xl font-bebas text-gradient mb-2">
+         7
+        </div>
+        <div class="text-gray-400">
+         Módulos Completos
+        </div>
+       </div>
+       <div>
+        <div class="text-5xl font-bebas text-gradient mb-2">
+         +50
+        </div>
+        <div class="text-gray-400">
+         Aulas Práticas
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section><!-- Modules Section -->
+   <section class="py-16 px-4">
+    <div class="max-w-5xl mx-auto">
+     <h2 class="font-bebas text-3xl md:text-5xl text-center mb-4">OS <span class="text-gradient">7 PILARES</span> DA TRANSFORMAÇÃO</h2>
+     <p class="text-center text-gray-400 mb-12 max-w-2xl mx-auto">Cada módulo foi estrategicamente desenvolvido para atacar uma área crítica da sua vida</p>
+     <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="module-card card-dark p-6 rounded-xl transition-all duration-300">
+       <div class="w-14 h-14 gradient-gold rounded-lg flex items-center justify-center mb-4"><span class="text-2xl">🧠</span>
+       </div>
+       <h3 class="font-bold text-xl mb-2">Módulo 1: Mentalidade de Elite</h3>
+       <p class="text-gray-400 text-sm">Reprograme sua mente para pensar como os 1%. Elimine crenças limitantes e instale novos padrões de sucesso.</p>
+      </div>
+      <div class="module-card card-dark p-6 rounded-xl transition-all duration-300">
+       <div class="w-14 h-14 gradient-gold rounded-lg flex items-center justify-center mb-4"><span class="text-2xl">⚔️</span>
+       </div>
+       <h3 class="font-bold text-xl mb-2">Módulo 2: Disciplina Inabalável</h3>
+       <p class="text-gray-400 text-sm">Construa rotinas de aço. Aprenda a fazer o que precisa ser feito mesmo quando não tem vontade.</p>
+      </div>
+      <div class="module-card card-dark p-6 rounded-xl transition-all duration-300">
+       <div class="w-14 h-14 gradient-gold rounded-lg flex items-center justify-center mb-4"><span class="text-2xl">💰</span>
+       </div>
+       <h3 class="font-bold text-xl mb-2">Módulo 3: Inteligência Financeira</h3>
+       <p class="text-gray-400 text-sm">Domine seu dinheiro. Aprenda a ganhar mais, gastar menos e investir de forma inteligente.</p>
+      </div>
+      <div class="module-card card-dark p-6 rounded-xl transition-all duration-300">
+       <div class="w-14 h-14 gradient-gold rounded-lg flex items-center justify-center mb-4"><span class="text-2xl">⚡</span>
+       </div>
+       <h3 class="font-bold text-xl mb-2">Módulo 4: Produtividade Extrema</h3>
+       <p class="text-gray-400 text-sm">Faça em 2 horas o que outros fazem em 8. Sistemas de foco e gestão de tempo de alta performance.</p>
+      </div>
+      <div class="module-card card-dark p-6 rounded-xl transition-all duration-300">
+       <div class="w-14 h-14 gradient-gold rounded-lg flex items-center justify-center mb-4"><span class="text-2xl">🚫</span>
+       </div>
+       <h3 class="font-bold text-xl mb-2">Módulo 5: Eliminação de Vícios</h3>
+       <p class="text-gray-400 text-sm">Liberte-se de pornografia, redes sociais e qualquer vício que esteja drenando sua energia vital.</p>
+      </div>
+      <div class="module-card card-dark p-6 rounded-xl transition-all duration-300">
+       <div class="w-14 h-14 gradient-gold rounded-lg flex items-center justify-center mb-4"><span class="text-2xl">💪</span>
+       </div>
+       <h3 class="font-bold text-xl mb-2">Módulo 6: Corpo e Energia</h3>
+       <p class="text-gray-400 text-sm">Otimize seu físico. Sono, alimentação e exercícios para ter energia ilimitada todos os dias.</p>
+      </div>
+      <div class="module-card card-dark p-8 rounded-xl transition-all duration-300 md:col-span-2 lg:col-span-1 lg:row-span-1 border-2 border-gold/30">
+       <div class="w-14 h-14 gradient-gold rounded-lg flex items-center justify-center mb-4"><span class="text-2xl">🎯</span>
+       </div>
+       <h3 class="font-bold text-xl mb-2">Módulo 7: Propósito e Legado</h3>
+       <p class="text-gray-400 text-sm">Descubra sua missão de vida. Construa algo que deixe marca no mundo e te dê significado real.</p>
+      </div>
+     </div>
+    </div>
+   </section><!-- Benefits Section -->
+   <section class="py-16 px-4 bg-gradient-to-b from-transparent via-gold/5 to-transparent">
+    <div class="max-w-5xl mx-auto">
+     <h2 class="font-bebas text-3xl md:text-5xl text-center mb-12">O QUE VOCÊ VAI <span class="text-gradient">CONQUISTAR</span></h2>
+     <div class="grid md:grid-cols-2 gap-6">
+      <div class="flex items-start gap-4 p-4">
+       <div class="w-8 h-8 rounded-full bg-green-500/20 flex items-center justify-center flex-shrink-0 mt-1">
+        <svg class="w-5 h-5 text-green-500" fill="currentColor" viewbox="0 0 20 20">
+         <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+        </svg>
+       </div>
+       <div>
+        <h3 class="font-bold text-lg text-white">Acordar às 5h com energia e propósito</h3>
+        <p class="text-gray-400">Sem precisar de despertador. Seu corpo vai querer levantar.</p>
+       </div>
+      </div>
+      <div class="flex items-start gap-4 p-4">
+       <div class="w-8 h-8 rounded-full bg-green-500/20 flex items-center justify-center flex-shrink-0 mt-1">
+        <svg class="w-5 h-5 text-green-500" fill="currentColor" viewbox="0 0 20 20">
+         <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+        </svg>
+       </div>
+       <div>
+        <h3 class="font-bold text-lg text-white">Dobrar sua produtividade em 30 dias</h3>
+        <p class="text-gray-400">Fazer mais em menos tempo e ainda ter energia sobrando.</p>
+       </div>
+      </div>
+      <div class="flex items-start gap-4 p-4">
+       <div class="w-8 h-8 rounded-full bg-green-500/20 flex items-center justify-center flex-shrink-0 mt-1">
+        <svg class="w-5 h-5 text-green-500" fill="currentColor" viewbox="0 0 20 20">
+         <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+        </svg>
+       </div>
+       <div>
+        <h3 class="font-bold text-lg text-white">Eliminar vícios de uma vez por todas</h3>
+        <p class="text-gray-400">Pornografia, redes sociais, jogos. Recupere seu tempo e energia.</p>
+       </div>
+      </div>
+      <div class="flex items-start gap-4 p-4">
+       <div class="w-8 h-8 rounded-full bg-green-500/20 flex items-center justify-center flex-shrink-0 mt-1">
+        <svg class="w-5 h-5 text-green-500" fill="currentColor" viewbox="0 0 20 20">
+         <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+        </svg>
+       </div>
+       <div>
+        <h3 class="font-bold text-lg text-white">Organizar suas finanças e começar a investir</h3>
+        <p class="text-gray-400">Sair das dívidas e construir patrimônio de verdade.</p>
+       </div>
+      </div>
+      <div class="flex items-start gap-4 p-4">
+       <div class="w-8 h-8 rounded-full bg-green-500/20 flex items-center justify-center flex-shrink-0 mt-1">
+        <svg class="w-5 h-5 text-green-500" fill="currentColor" viewbox="0 0 20 20">
+         <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+        </svg>
+       </div>
+       <div>
+        <h3 class="font-bold text-lg text-white">Ter clareza total sobre seu propósito</h3>
+        <p class="text-gray-400">Saber exatamente onde você quer chegar e como vai chegar lá.</p>
+       </div>
+      </div>
+      <div class="flex items-start gap-4 p-4">
+       <div class="w-8 h-8 rounded-full bg-green-500/20 flex items-center justify-center flex-shrink-0 mt-1">
+        <svg class="w-5 h-5 text-green-500" fill="currentColor" viewbox="0 0 20 20">
+         <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+        </svg>
+       </div>
+       <div>
+        <h3 class="font-bold text-lg text-white">Se orgulhar do homem que você se tornou</h3>
+        <p class="text-gray-400">Olhar no espelho e ver alguém que você admira.</p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section><!-- Bonus Section -->
+   <section class="py-16 px-4">
+    <div class="max-w-5xl mx-auto">
+     <div class="text-center mb-12"><span class="inline-block px-4 py-2 bg-red-500/20 rounded-full text-red-400 font-semibold text-sm mb-4"> 🎁 BÔNUS EXCLUSIVOS - APENAS HOJE </span>
+      <h2 class="font-bebas text-3xl md:text-5xl"><span class="text-gradient">+R$ 1.497</span> EM BÔNUS GRATUITOS</h2>
+     </div>
+     <div class="grid md:grid-cols-2 gap-6">
+      <div class="card-dark p-6 rounded-xl border-2 border-gold/30 relative overflow-hidden">
+       <div class="absolute top-4 right-4 bg-gold text-black text-xs font-bold px-2 py-1 rounded">
+        R$ 297
+       </div>
+       <div class="text-3xl mb-4">
+        📚
+       </div>
+       <h3 class="font-bold text-xl mb-2">Bônus #1: E-book "Mentalidade Milionária"</h3>
+       <p class="text-gray-400 text-sm">Os 21 princípios mentais que separam os ricos dos pobres. Guia prático de 87 páginas.</p>
+      </div>
+      <div class="card-dark p-6 rounded-xl border-2 border-gold/30 relative overflow-hidden">
+       <div class="absolute top-4 right-4 bg-gold text-black text-xs font-bold px-2 py-1 rounded">
+        R$ 397
+       </div>
+       <div class="text-3xl mb-4">
+        📋
+       </div>
+       <h3 class="font-bold text-xl mb-2">Bônus #2: Planilha de Controle Financeiro</h3>
+       <p class="text-gray-400 text-sm">Sistema completo para organizar suas finanças, controlar gastos e planejar investimentos.</p>
+      </div>
+      <div class="card-dark p-6 rounded-xl border-2 border-gold/30 relative overflow-hidden">
+       <div class="absolute top-4 right-4 bg-gold text-black text-xs font-bold px-2 py-1 rounded">
+        R$ 497
+       </div>
+       <div class="text-3xl mb-4">
+        🎧
+       </div>
+       <h3 class="font-bold text-xl mb-2">Bônus #3: Áudios de Reprogramação Mental</h3>
+       <p class="text-gray-400 text-sm">10 áudios para ouvir antes de dormir e reprogramar seu subconsciente para o sucesso.</p>
+      </div>
+      <div class="card-dark p-6 rounded-xl border-2 border-gold/30 relative overflow-hidden">
+       <div class="absolute top-4 right-4 bg-gold text-black text-xs font-bold px-2 py-1 rounded">
+        R$ 297
+       </div>
+       <div class="text-3xl mb-4">
+        📱
+       </div>
+       <h3 class="font-bold text-xl mb-2">Bônus #4: Comunidade VIP no Telegram</h3>
+       <p class="text-gray-400 text-sm">Acesso exclusivo ao grupo de homens em evolução. Networking, suporte e accountability.</p>
+      </div>
+     </div>
+    </div>
+   </section><!-- Testimonials Section -->
+   <section class="py-16 px-4 bg-gradient-to-b from-transparent via-gold/5 to-transparent">
+    <div class="max-w-5xl mx-auto">
+     <h2 class="font-bebas text-3xl md:text-5xl text-center mb-12">RESULTADOS <span class="text-gradient">REAIS</span></h2>
+     <div class="grid md:grid-cols-3 gap-6">
+      <div class="testimonial-card p-6 rounded-xl border border-gold/20">
+       <div class="flex items-center gap-1 mb-4"><span class="text-gold">★★★★★</span>
+       </div>
+       <p class="text-gray-300 mb-4 italic">"Estava no fundo do poço. Vícios, dívidas, sem propósito. Em 60 dias já tinha eliminado a pornografia, quitado 3 dívidas e acordando às 5h todo dia."</p>
+       <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-full bg-gradient-to-r from-gold to-goldLight flex items-center justify-center text-black font-bold">
+         R
+        </div>
+        <div>
+         <div class="font-bold">
+          Rafael S.
+         </div>
+         <div class="text-gray-500 text-sm">
+          28 anos, São Paulo
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="testimonial-card p-6 rounded-xl border border-gold/20">
+       <div class="flex items-center gap-1 mb-4"><span class="text-gold">★★★★★</span>
+       </div>
+       <p class="text-gray-300 mb-4 italic">"Dobrei minha renda em 4 meses aplicando o módulo de finanças. O melhor investimento que já fiz na vida. Retorno absurdo."</p>
+       <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-full bg-gradient-to-r from-gold to-goldLight flex items-center justify-center text-black font-bold">
+         M
+        </div>
+        <div>
+         <div class="font-bold">
+          Marcos P.
+         </div>
+         <div class="text-gray-500 text-sm">
+          34 anos, Rio de Janeiro
+         </div>
+        </div>
+       </div>
+      </div>
+      <div class="testimonial-card p-6 rounded-xl border border-gold/20">
+       <div class="flex items-center gap-1 mb-4"><span class="text-gold">★★★★★</span>
+       </div>
+       <p class="text-gray-300 mb-4 italic">"Finalmente encontrei meu propósito. Larguei o emprego que me fazia mal e hoje tenho meu próprio negócio. Gratidão eterna."</p>
+       <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-full bg-gradient-to-r from-gold to-goldLight flex items-center justify-center text-black font-bold">
+         L
+        </div>
+        <div>
+         <div class="font-bold">
+          Lucas M.
+         </div>
+         <div class="text-gray-500 text-sm">
+          25 anos, Belo Horizonte
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section><!-- Authority Section -->
+   <section class="py-16 px-4">
+    <div class="max-w-4xl mx-auto">
+     <div class="card-dark p-8 md:p-12 rounded-2xl">
+      <div class="flex flex-col md:flex-row items-center gap-8">
+       <div class="w-32 h-32 md:w-40 md:h-40 rounded-full bg-gradient-to-br from-gold to-goldLight flex items-center justify-center flex-shrink-0"><span class="text-6xl">👨‍💼</span>
+       </div>
+       <div>
+        <h3 class="font-bebas text-2xl md:text-3xl mb-4">CRIADO POR QUEM <span class="text-gradient">VIVE O QUE ENSINA</span></h3>
+        <p class="text-gray-300 mb-4">Este método foi desenvolvido após <span class="text-gold font-bold">8 anos de estudo</span> em desenvolvimento pessoal, psicologia comportamental e alta performance.</p>
+        <p class="text-gray-300 mb-4">Já ajudou <span class="text-gold font-bold">+2.847 homens</span> a transformarem suas vidas através de disciplina, mentalidade e estratégia financeira.</p>
+        <div class="flex flex-wrap gap-4 text-sm"><span class="px-3 py-1 bg-gold/20 rounded-full text-gold">📚 +500 livros estudados</span> <span class="px-3 py-1 bg-gold/20 rounded-full text-gold">🎓 Certificações internacionais</span> <span class="px-3 py-1 bg-gold/20 rounded-full text-gold">💼 Mentor de CEOs</span>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section><!-- Guarantee Section -->
+   <section class="py-16 px-4 bg-gradient-to-b from-transparent via-green-900/10 to-transparent">
+    <div class="max-w-3xl mx-auto text-center">
+     <div class="inline-block p-8 border-4 border-green-500/50 rounded-full mb-8"><span class="text-6xl">🛡️</span>
+     </div>
+     <h2 class="font-bebas text-3xl md:text-5xl mb-6">GARANTIA <span class="text-green-500">INCONDICIONAL</span> DE 7 DIAS</h2>
+     <p class="text-xl text-gray-300 mb-8">Se dentro de 7 dias você sentir que o Protocolo Evolução não é para você, basta enviar um único e-mail e devolvemos <span class="text-green-500 font-bold">100% do seu investimento</span>. Sem perguntas, sem burocracia.</p>
+     <p class="text-gold font-bold text-lg">O risco é TODO nosso. Você não tem nada a perder.</p>
+    </div>
+   </section><!-- Pricing Section -->
+   <section class="py-16 px-4">
+    <div class="max-w-4xl mx-auto">
+     <div class="card-dark p-8 md:p-12 rounded-2xl glow-gold-intense text-center relative overflow-hidden">
+      <div class="absolute top-0 left-0 right-0 bg-gradient-to-r from-gold via-goldLight to-gold py-2"><span class="text-black font-bold text-sm">⚡ OFERTA ESPECIAL POR TEMPO LIMITADO ⚡</span>
+      </div>
+      <div class="pt-8">
+       <h2 class="font-bebas text-3xl md:text-4xl mb-6">QUANTO VALE TRANSFORMAR <span class="text-gradient">SUA VIDA INTEIRA?</span></h2>
+       <div class="mb-8">
+        <div class="text-gray-400 text-lg mb-3">
+         De <span id="original-price" class="line-through-red text-2xl font-bold">R$ 97,00</span>
+        </div>
+        <div class="relative mb-4">
+         <div class="absolute -right-4 top-2 bg-red-500 text-white px-3 py-1 rounded-lg text-sm font-bold transform rotate-12">
+          -51% OFF
+         </div>
+        </div>
+        <div class="text-green-400 font-bold text-lg mb-2">
+         💰 Economize <span id="savings-display">R$ 49,10</span>
+        </div>
+        <div class="text-gold font-bebas text-6xl md:text-7xl mb-2"><span id="promotional-price-display">R$ 47,90</span>
+        </div>
+        <div class="text-gray-300 text-lg mb-4">
+         ou <span class="font-bold text-gold">12x de R$ 3,99</span> no cartão
+        </div>
+        <div class="text-gray-500 text-sm">
+         🔓 PIX · 💳 Cartão · 📋 Boleto
+        </div>
+       </div><a href="https://pay.hotmart.com/H104481086N" target="_blank" rel="noopener noreferrer" onclick="trackCheckout()" class="btn-cta inline-block px-12 py-6 rounded-xl text-black font-black text-xl md:text-2xl pulse-animation mb-6"> 🔥 COMEÇAR MINHA TRANSFORMAÇÃO </a>
+       <div class="flex flex-wrap justify-center gap-4 text-sm text-gray-400 mb-6"><span class="flex items-center gap-2">
+         <svg class="w-5 h-5 text-green-500" fill="currentColor" viewbox="0 0 20 20">
+          <path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd" />
+         </svg> Compra 100% Segura </span> <span class="flex items-center gap-2">
+         <svg class="w-5 h-5 text-green-500" fill="currentColor" viewbox="0 0 20 20">
+          <path d="M4 4a2 2 0 00-2 2v4a2 2 0 002 2V6h10a2 2 0 00-2-2H4zm2 6a2 2 0 012-2h8a2 2 0 012 2v4a2 2 0 01-2 2H8a2 2 0 01-2-2v-4zm6 4a2 2 0 100-4 2 2 0 000 4z" />
+         </svg> Parcele em até 12x </span> <span class="flex items-center gap-2">
+         <svg class="w-5 h-5 text-green-500" fill="currentColor" viewbox="0 0 20 20">
+          <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+         </svg> Acesso Imediato </span>
+       </div>
+       <div class="flex justify-center gap-4 opacity-60"><span class="text-2xl">💳</span> <span class="text-2xl">📱</span> <span class="text-2xl">🏦</span>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section><!-- FAQ Section -->
+   <section class="py-16 px-4">
+    <div class="max-w-3xl mx-auto">
+     <h2 class="font-bebas text-3xl md:text-5xl text-center mb-12">PERGUNTAS <span class="text-gradient">FREQUENTES</span></h2>
+     <div class="card-dark rounded-2xl overflow-hidden">
+      <div class="faq-item p-6 cursor-pointer" onclick="toggleFaq(this)">
+       <div class="flex justify-between items-center">
+        <h3 class="font-bold text-lg">Por quanto tempo tenho acesso ao conteúdo?</h3><span class="text-gold text-2xl transition-transform duration-300">+</span>
+       </div>
+       <div class="faq-answer hidden mt-4 text-gray-400">
+        Acesso vitalício! Uma vez que você adquire o Protocolo Evolução, o conteúdo é seu para sempre, incluindo todas as atualizações futuras.
+       </div>
+      </div>
+      <div class="faq-item p-6 cursor-pointer" onclick="toggleFaq(this)">
+       <div class="flex justify-between items-center">
+        <h3 class="font-bold text-lg">Funciona mesmo se eu já tentei de tudo?</h3><span class="text-gold text-2xl transition-transform duration-300">+</span>
+       </div>
+       <div class="faq-answer hidden mt-4 text-gray-400">
+        Sim! O método foi desenvolvido justamente para quem já tentou várias coisas e não conseguiu resultados. A diferença é que aqui você tem um sistema estruturado, passo a passo, não apenas informação solta.
+       </div>
+      </div>
+      <div class="faq-item p-6 cursor-pointer" onclick="toggleFaq(this)">
+       <div class="flex justify-between items-center">
+        <h3 class="font-bold text-lg">Quanto tempo preciso dedicar por dia?</h3><span class="text-gold text-2xl transition-transform duration-300">+</span>
+       </div>
+       <div class="faq-answer hidden mt-4 text-gray-400">
+        Apenas 30 minutos por dia são suficientes para consumir o conteúdo e aplicar as práticas. O método foi pensado para quem tem rotina corrida.
+       </div>
+      </div>
+      <div class="faq-item p-6 cursor-pointer" onclick="toggleFaq(this)">
+       <div class="flex justify-between items-center">
+        <h3 class="font-bold text-lg">Posso parcelar no cartão?</h3><span class="text-gold text-2xl transition-transform duration-300">+</span>
+       </div>
+       <div class="faq-answer hidden mt-4 text-gray-400">
+        Sim! Você pode parcelar em até 12x no cartão de crédito. Também aceitamos PIX e boleto à vista.
+       </div>
+      </div>
+      <div class="faq-item p-6 cursor-pointer" onclick="toggleFaq(this)">
+       <div class="flex justify-between items-center">
+        <h3 class="font-bold text-lg">E se eu não gostar do conteúdo?</h3><span class="text-gold text-2xl transition-transform duration-300">+</span>
+       </div>
+       <div class="faq-answer hidden mt-4 text-gray-400">
+        Você tem 7 dias de garantia incondicional. Se por qualquer motivo sentir que não é para você, basta enviar um e-mail e devolvemos 100% do seu dinheiro.
+       </div>
+      </div>
+      <div class="faq-item p-6 cursor-pointer" onclick="toggleFaq(this)">
+       <div class="flex justify-between items-center">
+        <h3 class="font-bold text-lg">O acesso é liberado na hora?</h3><span class="text-gold text-2xl transition-transform duration-300">+</span>
+       </div>
+       <div class="faq-answer hidden mt-4 text-gray-400">
+        Sim! Após a confirmação do pagamento, você recebe imediatamente o acesso à área de membros com todo o conteúdo disponível.
+       </div>
+      </div>
+     </div>
+    </div>
+   </section><!-- Final CTA Section -->
+   <section class="py-16 px-4 bg-gradient-to-t from-gold/10 via-transparent to-transparent">
+    <div class="max-w-4xl mx-auto text-center">
+     <h2 class="font-bebas text-3xl md:text-5xl mb-6">A DECISÃO É <span class="text-gradient">SUA</span></h2>
+     <p class="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">Você pode fechar essa página e continuar no <span class="text-red-500 font-bold">modo automático</span>, ou pode tomar a decisão de transformar sua vida <span class="text-gold font-bold">agora</span>.</p>
+     <p class="text-2xl font-bold mb-8">Daqui a 90 dias, você vai olhar para trás e agradecer por ter tomado essa decisão.</p><a href="https://pay.hotmart.com/H104481086N" target="_blank" rel="noopener noreferrer" onclick="trackCheckout()" class="btn-cta inline-block px-12 py-6 rounded-xl text-black font-black text-xl md:text-2xl pulse-animation mb-8"> ⚡ ACESSAR AGORA - ÚLTIMAS VAGAS </a>
+     <p class="text-gray-500 text-sm">Ao clicar no botão, você será redirecionado para a página de pagamento seguro da Hotmart.</p>
+    </div>
+   </section><!-- Footer -->
+   <footer class="py-8 px-4 border-t border-gray-800">
+    <div class="max-w-4xl mx-auto text-center text-gray-500 text-sm">
+     <p class="mb-4">© 2024 Protocolo Evolução. Todos os direitos reservados.</p>
+     <p class="mb-4">Este produto é comercializado com apoio da Hotmart. A plataforma não faz controle editorial prévio dos produtos comercializados, nem avalia a tecnicidade e experiência daqueles que os produzem.</p>
+     <p>A existência de um produto e sua aquisição, através da plataforma, não podem ser consideradas como garantia de qualidade de conteúdo e resultado, em qualquer hipótese.</p>
+    </div>
+   </footer>
+  </div>
+  <script>
+    // Default configuration
+    const defaultConfig = {
+      headline: 'CHEGA DE VIVER NO MODO AUTOMÁTICO\nDOMINE SUA MENTE, SEU DINHEIRO E SUA VIDA',
+      subheadline: 'O sistema definitivo de 90 dias para você sair da procrastinação, eliminar vícios e construir a versão mais forte de si mesmo — mesmo que você já tenha tentado de tudo antes.',
+      cta_text: 'QUERO GARANTIR POR R$ 47,90',
+      original_price: 'R$ 97,00',
+      promotional_price: 'R$ 47,90',
+      discount_savings: 'R$ 49,10',
+      background_color: '#0a0a0a',
+      accent_color: '#d4af37',
+      text_color: '#ffffff',
+      secondary_color: '#111111',
+      cta_color: '#d4af37'
+    };
+    
+    // Track ViewContent event
+    if (typeof fbq !== 'undefined') {
+      fbq('track', 'ViewContent', {
+        content_name: 'Protocolo Evolução',
+        content_category: 'Desenvolvimento Pessoal',
+        value: 97.00,
+        currency: 'BRL'
+      });
+    }
+    
+    // Track checkout clicks
+    function trackCheckout() {
+      if (typeof fbq !== 'undefined') {
+        fbq('track', 'InitiateCheckout', {
+          content_name: 'Protocolo Evolução',
+          content_category: 'Desenvolvimento Pessoal',
+          value: 97.00,
+          currency: 'BRL'
         });
-
-        // Scroll Animation (seu código original)
-        const observerOptions = { threshold: 0.1, rootMargin: '0px 0px -50px 0px' };
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) entry.target.classList.add('visible');
-            });
-        }, observerOptions);
-        document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-    </script>
-</body>
+      }
+    }
+    
+    // Countdown timer
+    function startCountdown() {
+      let hours = 23;
+      let minutes = 59;
+      let seconds = 59;
+      
+      const savedEnd = localStorage.getItem('countdown_end');
+      let endTime;
+      
+      if (savedEnd) {
+        endTime = parseInt(savedEnd);
+      } else {
+        endTime = Date.now() + (24 * 60 * 60 * 1000);
+        localStorage.setItem('countdown_end', endTime.toString());
+      }
+      
+      function updateCountdown() {
+        const now = Date.now();
+        const diff = endTime - now;
+        
+        if (diff <= 0) {
+          endTime = Date.now() + (24 * 60 * 60 * 1000);
+          localStorage.setItem('countdown_end', endTime.toString());
+        }
+        
+        const totalSeconds = Math.floor(diff / 1000);
+        hours = Math.floor(totalSeconds / 3600);
+        minutes = Math.floor((totalSeconds % 3600) / 60);
+        seconds = totalSeconds % 60;
+        
+        document.getElementById('countdown-hours').textContent = hours.toString().padStart(2, '0');
+        document.getElementById('countdown-minutes').textContent = minutes.toString().padStart(2, '0');
+        document.getElementById('countdown-seconds').textContent = seconds.toString().padStart(2, '0');
+      }
+      
+      updateCountdown();
+      setInterval(updateCountdown, 1000);
+    }
+    
+    // FAQ toggle
+    function toggleFaq(element) {
+      const answer = element.querySelector('.faq-answer');
+      const icon = element.querySelector('span');
+      
+      answer.classList.toggle('hidden');
+      icon.textContent = answer.classList.contains('hidden') ? '+' : '−';
+      icon.style.transform = answer.classList.contains('hidden') ? 'rotate(0deg)' : 'rotate(180deg)';
+    }
+    
+    // Initialize Element SDK
+    if (window.elementSdk) {
+      window.elementSdk.init({
+        defaultConfig,
+        onConfigChange: async (config) => {
+          const headline = document.getElementById('main-headline');
+          const subheadline = document.getElementById('main-subheadline');
+          const promotionalPrice = document.getElementById('promotional-price-display');
+          const originalPrice = document.getElementById('original-price');
+          const savingsDisplay = document.getElementById('savings-display');
+          
+          if (headline && config.headline) {
+            const headlineText = config.headline || defaultConfig.headline;
+            const parts = headlineText.split('\n');
+            if (parts.length >= 2) {
+              headline.innerHTML = parts[0].replace('MODO AUTOMÁTICO', '<span class="text-gradient">MODO AUTOMÁTICO</span>') + '<br><span class="text-white">' + parts[1] + '</span>';
+            }
+          }
+          
+          if (subheadline && config.subheadline) {
+            subheadline.innerHTML = (config.subheadline || defaultConfig.subheadline)
+              .replace('90 dias', '<span class="text-gold font-bold">90 dias</span>')
+              .replace('disciplinado, focado e financeiramente livre', '<span class="text-gold font-bold">disciplinado, focado e financeiramente livre</span>')
+              .replace('mesmo que você já tenha tentado de tudo antes', '<span class="text-gold font-bold">mesmo que você já tenha tentado de tudo antes</span>');
+          }
+          
+          if (promotionalPrice) {
+            promotionalPrice.textContent = config.promotional_price || defaultConfig.promotional_price;
+          }
+          
+          if (originalPrice) {
+            originalPrice.textContent = config.original_price || defaultConfig.original_price;
+          }
+          
+          if (savingsDisplay) {
+            savingsDisplay.textContent = config.discount_savings || defaultConfig.discount_savings;
+          }
+          
+          // Apply colors
+          document.body.style.backgroundColor = config.background_color || defaultConfig.background_color;
+        },
+        mapToCapabilities: (config) => ({
+          recolorables: [
+            {
+              get: () => config.background_color || defaultConfig.background_color,
+              set: (value) => {
+                config.background_color = value;
+                window.elementSdk.setConfig({ background_color: value });
+              }
+            },
+            {
+              get: () => config.secondary_color || defaultConfig.secondary_color,
+              set: (value) => {
+                config.secondary_color = value;
+                window.elementSdk.setConfig({ secondary_color: value });
+              }
+            },
+            {
+              get: () => config.text_color || defaultConfig.text_color,
+              set: (value) => {
+                config.text_color = value;
+                window.elementSdk.setConfig({ text_color: value });
+              }
+            },
+            {
+              get: () => config.accent_color || defaultConfig.accent_color,
+              set: (value) => {
+                config.accent_color = value;
+                window.elementSdk.setConfig({ accent_color: value });
+              }
+            },
+            {
+              get: () => config.cta_color || defaultConfig.cta_color,
+              set: (value) => {
+                config.cta_color = value;
+                window.elementSdk.setConfig({ cta_color: value });
+              }
+            }
+          ],
+          borderables: [],
+          fontEditable: undefined,
+          fontSizeable: undefined
+        }),
+        mapToEditPanelValues: (config) => new Map([
+          ['headline', config.headline || defaultConfig.headline],
+          ['subheadline', config.subheadline || defaultConfig.subheadline],
+          ['cta_text', config.cta_text || defaultConfig.cta_text],
+          ['original_price', config.original_price || defaultConfig.original_price],
+          ['promotional_price', config.promotional_price || defaultConfig.promotional_price],
+          ['discount_savings', config.discount_savings || defaultConfig.discount_savings]
+        ])
+      });
+    }
+    
+    // Start countdown on load
+    startCountdown();
+    
+    // Add scroll animations
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('fade-in');
+        }
+      });
+    }, { threshold: 0.1 });
+    
+    document.querySelectorAll('section').forEach(section => {
+      observer.observe(section);
+    });
+  </script>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9d69186fb369c6c1',t:'MTc3MjU0NTY3MS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
